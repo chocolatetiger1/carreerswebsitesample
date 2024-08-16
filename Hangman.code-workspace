@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../pygame_/Hangman"
+		},
+		{
+			"path": "../Machine learning"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}

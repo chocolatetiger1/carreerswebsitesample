@@ -1,0 +1,58 @@
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a href="{{ url_for('view.home') }}" class="navbar-brand"> 
+            <span class="title-word title-word-1"> Carreer</span>
+            <span class="title-word title-word-2"> Connect</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav3"
+        aria-controls="navbarNav3" aria-label="Toggle Navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav3">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+            <a href="#" class="nav-link active" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item">
+            <a href="#" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+            <a href="#" class="nav-link">Contact</a>
+            </li>
+
+            <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" id="navbar-dropdown-link-2" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">Carreers</a>
+            <ul class="dropdown-menu" aria-labelledby="navbar-dropdown-link-2">
+                <li>
+                <a href="#" class="dropdown-item">Software engineering</a>
+                </li>
+                <li>
+                <a href="#" class="dropdown-item">AI/ML engineering</a>
+                </li>
+                <li class="dropdown dropend">
+                <a href="#" class="dropdown-item dropdown-toggle" id="navbar-dropdown-list-deep-1" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Interview
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbar-dropdown-link-1">
+                    <li>
+                    <a href="#" class="dropdown-item">Data structure and Algorithm</a>
+                    </li>
+                    <li>
+                    <a href="#" class="dropdown-item">System Design</a>
+                    <a href="#" class="dropdown-item">Behavioural Interview</a>
+                    </li>
+                </ul>
+                </li>
+            </ul>
+            </li>
+
+            <li class="nav-item">
+            <a href="#" class="nav-link disabled">Disabled</a>
+            </li>
+        </ul>
+        </div>
+    </div>
+</nav>
+<hr>

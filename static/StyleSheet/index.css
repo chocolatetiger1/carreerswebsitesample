@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+html, body{
+    margin:0;
+    padding:0;
+    font-family: "Rubik", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(77.24deg, #003566, #0A9396);
+}
+
+nav{
+    height:5rem;
+}
+
+.heading-div{
+    display:flex;
+    justify-content: center;
+}
+
+.animated-heading{
+    text-transform: uppercase;
+    background-image: linear-gradient(
+        -225deg, 
+        #231557 0%, 
+        #44107A 29%,
+        #FF1361 67%,
+        #FFF800 100%);
+
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color:#FFF;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 5rem;
+}
+
+/* creating animation in css */
+@keyframes textclip{
+    to{
+        background-position: 200% center;
+    }
+}
+
+.header-list{
+    list-style-position: inside;
+    list-style-image: url('../icon/lion.svg');
+    text-align: justify;
+    justify-content: space-between;
+}
+
+.header-list li{
+    margin: 0.5rem 1rem;
+    font-size: 1.5rem;
+    color:aliceblue;
+}
+
+.hr-footer{
+    border:0;
+    height:5px;
+    background: linear-gradient(to right,rgba(255,255,255,0.5),rgba(254,250,224,0,75),rgba(254,217,183,0.65));
+}
+
+.heading{
+    text-align: center;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-div1{
+    width: 300px;
+}
+
+footer{
+    text-align:center;
+    font-size: 2rem;
+    color: aquamarine;
+}
+
+/*navbar-html*/
+.title-word{
+    animation: color-animation 4s linear infinite;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.title-word-1{
+    --color-1:#df8453;
+    --color-2:#3d8dae;
+    --color-3:#e4a9a8;
+}
+
+.title-word-2{
+    --color-1:#db4da3;
+    --color-2:#accfcb;
+    --color-3:#12494d;
+}
+
+@keyframes color-animation{
+    0% {color:var(--color-1)}
+    32% {color:var(--color-1)}
+    33% {color:var(--color-2)}
+    65% {color:var(--color-2)}
+    66% {color:var(--color-3)}
+    90% {color:var(--color-3)}
+    100% {color:var(--color-1)}
+}

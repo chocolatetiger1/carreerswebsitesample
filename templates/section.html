@@ -1,0 +1,16 @@
+{% for out_id in data %}
+    <section>
+        <div class="flexi-div1">
+            <h3>{{data[out_id]["title"]}}</h3>
+            <h4>Location:<em>{{data[out_id]["location"]}}</em></h4> 
+            {%  if 'salary' in data[out_id] %}
+                <h4>Salary: <em> {{data[out_id]["salary"]}}</em></h4>
+            {% endif %} 
+        </div>
+        <div>
+            <button onclick="window.location.href= '{{ url_for('view.form')}}';" class="btn btn-dark btn-lg">
+                Apply
+            </button>
+        </div>
+    </section>
+{% endfor %}

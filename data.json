@@ -1,0 +1,27 @@
+{
+    "1": {
+        "id":1,
+        "title":"Data Analyst",
+        "location": "Liverpool, UK",
+        "salary": "Rs. 100000"
+    },
+    "2": {
+        "id":2,
+        "title":"Data Scientist",
+        "location": "Manchester,UK",
+        "salary": "Rs. 250000"
+    },
+    "3": {
+        "id":3,
+        "title":"Front end developer",
+        "location": "London, UK",
+        "salary": "Rs. 120000"
+    }
+    ,
+    "4": {
+        "id":4,
+        "title":"Back end developer",
+        "location": "Birmingham, UK",
+        "salary": "RS. 12000"
+    }
+}

@@ -1,0 +1,6 @@
+# how to activate virtual environment in powershell
+cd .venv\Scripts
+./activate
+
+#set execution policy (in case of conflict of virtual environment with system)
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
